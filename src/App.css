@@ -1,0 +1,214 @@
+.App {
+  font-size: 28px;
+  background-color: #bdddff;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  margin: 0;
+}
+Input {
+  text-align: start;
+  margin: 0;
+  padding: 5px;
+  height: 40px;
+  width: 600px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 28px;
+}
+.Input-value {
+  display: inline-flex;
+  align-items: center;
+}
+.Refresh {
+  background-color: #428bca;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0;
+}
+.Red-refresh {
+  background-color: #1c2841;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.Timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3c4d5c;
+  color: white;
+  margin: 10px;
+  height: 50px;
+  width: 60px;
+  font-size: 38px;
+  border-radius: 5px;
+}
+.Refresh:hover {
+  background-color: #2371ca;
+}
+.Shadow-input-value {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  width: 1000px;
+  background-color: #a7c8e7;
+  border-radius: 5px;
+  box-shadow: 5px 5px 1px grey;
+  margin-bottom: 30px;
+}
+.Field {
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 1000px;
+  height: 90px;
+  background-color: #fff;
+  font-size: 1em;
+  overflow: hidden;
+  line-height: 1.5;
+  border-radius: 5px;
+  word-spacing: 20px;
+
+  border: 1px solid #8eb6d8;
+}
+
+.Inside-field {
+  text-align: left;
+  overflow: hidden;
+}
+
+.First-word {
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 0 2px;
+  margin-right: 20px;
+  display: inline-flex;
+  justify-content: center;
+}
+.Bc-red {
+  background-color: #d32f2f;
+  border-radius: 5px;
+  padding: 0 2px;
+  margin-right: 20px;
+  display: inline-flex;
+  justify-content: center;
+}
+.TextField {
+  border-radius: 5px;
+  width: 1000px;
+  background-color: #fff;
+}
+h6 {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 5px;
+  padding: 0;
+}
+.Result {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  background-color: #fff;
+  height: 365px;
+  width: 270px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.Result h2 {
+  color: white;
+  width: 260px;
+  margin: 0;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  background-color: #4e7fa0;
+}
+
+.Wpm {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #dddddd;
+  color: #81888c;
+}
+.Wpm h1 {
+  color: #527a1e;
+}
+
+.Keystrokes {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.Accuracy {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 1px solid #dddddd;
+  background-color: #f9f9f9;
+}
+
+.Correct-words {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.Wrong-words {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #dddddd;
+}
+button {
+  background-color: #305991;
+  margin-top: 10px;
+  font-size: 18px;
+  width: 180px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+.Green {
+  color: green;
+}
+.Red {
+  color: #d32f2f;
+}
+
+.Red-timer {
+  background-color: #d32f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 10px;
+  height: 50px;
+  width: 60px;
+  font-size: 38px;
+  border-radius: 5px;
+}
+
+.Creator {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin: 0 5px;
+  font-size: 20px;
+}
