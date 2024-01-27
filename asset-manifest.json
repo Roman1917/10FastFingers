@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/10FastFingers/static/css/main.423dc40d.css",
+    "main.js": "/10FastFingers/static/js/main.feac141e.js",
+    "index.html": "/10FastFingers/index.html",
+    "main.423dc40d.css.map": "/10FastFingers/static/css/main.423dc40d.css.map",
+    "main.feac141e.js.map": "/10FastFingers/static/js/main.feac141e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.423dc40d.css",
+    "static/js/main.feac141e.js"
+  ]
+}
